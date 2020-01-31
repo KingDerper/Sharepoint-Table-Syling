@@ -1,0 +1,87 @@
+.ms-vb2,.ms-vh2-nofilter, .ms-vh2-nograd, .ms-vh2{
+    word-wrap: break-word;
+  White-space: normal;}
+  </style>
+  <style>
+      /* ---------- Table Rows ----------*/
+      /* Set background for every row */
+      .ms-listviewtable > tbody > tr {
+          background: white;
+      }
+  
+      /* Set border for every row */
+      .ms-listviewtable > tbody > tr td{
+          border-bottom: 1px solid #ebebeb !important; /* !important needed over override SharePoint inline style */
+          border-left: 1px solid #ebebeb !important;
+          border-right: 1px solid #ebebeb !important;
+      }
+  
+      /* Set background for every alternating row */
+      .ms-listviewtable > tbody > tr.ms-alternating {
+          background: #ebebeb;
+      }
+  
+      /* ---------- Table Header Row ----------*/
+      /* Remove background set in SharePoint's general data table style */
+      .ms-listviewtable tr.ms-viewheadertr {
+          background: transparent;
+      }
+  
+      /* Modify background color */
+      tr.ms-viewheadertr > th.ms-vh-icon, /* Input box and attachment icon */
+      tr.ms-viewheadertr > th.ms-vh, /* Text */
+      tr.ms-viewheadertr > th.ms-vh2,
+      tr.ms-viewheadertr > th /* Text */ {
+          background: #1d2b4d;
+      }
+  
+      /* Modify background color on hover */
+      tr.ms-viewheadertr > th.ms-vh:hover,
+      tr.ms-viewheadertr > th.ms-vh2:hover,
+      tr.ms-viewheadertr > th  {
+          background-color: #1d2b4d;
+          border-color: #1d2b4d;
+      }
+  
+      /* Modify font color */
+      .ms-viewheadertr a,
+      .ms-viewheadertr div {
+          color: white;
+      }
+  
+      /* Modify font color on hover */
+      .ms-viewheadertr a:hover,
+      .ms-viewheadertr div:hover {
+          color: white;
+      }
+     /* tr.ms-viewheadertr > th.ms-vh-icon:last-child {
+          display:none;
+      } */
+      .ms-core-menu-title{color: black !important;}
+      .ms-headerSortArrowLink{color: #57c9e8 !important;}
+  
+  .ms-list-addnew-imgSpan16{color: #1d2b4d;}
+  .ms-headerSortArrowLink
+  {
+  display:none !important;
+  }
+  .ms-listview-new-glyph-circle {color: #1d2b4d;}
+   .ms-qcb-glyph.ms-listview-glyph-withmargin.ms-core-form-heading {color: #1d2b4d;}
+  .ms-qcb-button:hover {
+      background: none;
+      color: #ff5271;
+  }
+  .ms-heroCommandLink:hover, .ms-heroCommandLink:active {
+      color: #ff5271 !important;
+  }
+  #idHomePageNewItem{color:#1d2b4d }
+  .ms-heroCommandLink{color:#1d2b4d !important}
+  
+  .ms-vb2{color: #1d2b4d;}
+  
+  .ms-webpart-titleText{color: #1d2b4d;}
+  
+  /*.ms-webpart-titleText  a:hover {
+      color: white;
+      background-color: #1d2b4d !important;
+  }*/
